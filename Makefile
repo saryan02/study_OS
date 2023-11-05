@@ -3,7 +3,7 @@ ifdef OS
 else
 	RM = rm -f
 endif
-all: 
+all: prog 
 
 prog: prog.o func.o
 	g++ -g -o prog prog.o func.o
