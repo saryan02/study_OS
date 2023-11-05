@@ -12,5 +12,5 @@ func.o: func.cpp
 	g++ -c -Wall -g func.cpp
 
 clean: 
-	$(RM) /Q *.o
-	$(RM) /Q *.exe
+	$(RM) *.o
+	$(RM) *.exe
